@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    padding: 20px;
+    margin:0;
+    font-family: 'Arimo';
+    
+}
+#root{
+    background-color:rgb(24,31,46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border-radius: 11px;
+    display: grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+  height: 450px;
+  width: 700px;
+}
+.community{
+    background-color: rgb(255, 253, 253);
+    border-radius: 11px 11px 0 0;
+    font-weight: 600;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.community-header{
+    color: rgb(40, 207,207);
+    margin-top: 30px;
+    text-align: center;
+}
+.community-more{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub{
+    color: rgb(119,186,37);
+}
+.more-info{
+    color: rgb(127,127,127);
+    text-align: center;
+    margin:0 50px;
+    line-height: 25px;
+}
+.card-details{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.card{
+    background-color: rgb(15, 67, 66);
+    width: 50%;
+    border-radius: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-text{
+ font-size:2rem;
+}
+.price div{
+    margin: 0 20px;
+}
+.btn{
+    cursor: pointer;
+    font-weight: 600;
+    margin: 10px 0;
+    padding: 0.8rem 4rem;
+    border-radius: 10px;
+    color: #ffffff;
+    border:none;
+    background-color: rgb(111,159,21);
+}
+.why-us{
+    background-color: rgba(85, 145, 142, 0.698);
+    display: inline-block;
+    width:50%;
+    border-radius: 0 0 10px 0;
+    text-align: center;
+}
+.feature price{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+li{
+    list-style: none;
+}
+.feature li{
+    margin: 2px 0;
+}
+.card-header,.why-us-header{
+    margin:30px ;
+    padding: 0;
+}
